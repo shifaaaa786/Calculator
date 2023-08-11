@@ -1,56 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Hubballi&family=Montserrat:ital,wght@0,400;0,600;1,600&family=REM:ital,wght@0,300;1,300&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="calci.css">
-    <title>Calculator</title>
-</head>
-
-<body>
-    <div class="calculator">
-        <input type="number" placeholder="0">
-        <div class="container">
-            <div>
-                <button>AC</button>
-                <button><i class='bx bxs-tag-x'></i></button>
-                <button>%</button>
-                <button><i class="fa-solid fa-divide fa-sm" style="color: #ffffff;"></i></button>
-            </div>
-            <div>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>x</button>
-            </div>
-            <div>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-            </div>
-            <div>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-            </div>
-            <div>
-                <button>00</button>
-                <button>0</button>
-                <button>.</button>
-                <button class="equal">=</button>
-            </div>
-        </div>
-    </div>
-
-
-    <script src="calci.js"></script>
-</body>
+<!DOCTYPE html>  
+<html lang="en">  
+  <head>  
+    <meta charset="UTF-8" >  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >  
+    <link rel="stylesheet" href="calci.css" >  
+    <title>Calculator</title>  
+  </head>  
+  <body>  
+ 
+      <div class="calculator">  
+        <input type="text" id="inputBox" placeholder="0" /> 
+        <div class="container">  
+        <div>  
+          <button class="button operator">AC</button>  
+          <button class="button operator">DEL</button>  
+          <button class="button operator">%</button>  
+          <button class="button operator">/</button>  
+        </div>  
+        <div>  
+          <button class="button">7</button>  
+          <button class="button">8</button>  
+          <button class="button">9</button>  
+          <button class="button operator">*</button>  
+        </div>  
+        <div>  
+          <button class="button">4</button>  
+          <button class="button">5</button>  
+          <button class="button">6</button>  
+          <button class="button operator">-</button>  
+        </div>  
+        <div>  
+          <button class="button">1</button>  
+          <button class="button">2</button>  
+          <button class="button">3</button>  
+          <button class="button operator">+</button>  
+        </div>  
+  
+        <div>  
+          <button class="button">00</button>  
+          <button class="button">0</button>  
+          <button class="button">.</button>  
+          <button class="button equalBtn">=</button>  
+        </div>  
+      </div>  
+    </div>  
+  
+    <script src="calci.js"></script>  
+  </body>  
 </html>
